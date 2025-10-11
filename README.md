@@ -5,27 +5,24 @@ It uses a Convolutional Neural Network (CNN) model trained on a custom dataset o
 
 ---
 
-## 📁 Project Structure
-
 cow-buffalo-classifier/
 │
 ├── dataset/
-│ ├── cow/
-│ ├── buffalo/
+│   ├── cow/
+│   └── buffalo/
 │
 ├── model/
-│ └── model.h5 # trained model (ignored in .gitignore)
+│   └── model.h5            # trained CNN model
 │
 ├── app/
-│ ├── static/
-│ │ └── uploads/ # uploaded images from web
-│ ├── templates/
-│ │ ├── index.html
-│ │ └── result.html
-│ └── app.py
+│   ├── static/
+│   │   └── uploads/        # uploaded images
+│   ├── templates/
+│   │   └── index.html      # user interface
+│   └── app.py              # Flask backend
 │
-├── train_model.py
-├── requirements.txt
+├── train_model.py          # training script
+├── requirements.txt        # dependencies
 └── README.md
 
 ---
